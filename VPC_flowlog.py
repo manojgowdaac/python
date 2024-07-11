@@ -33,6 +33,4 @@ else:
                 LogGroupName=log_group,
                 DeliverLogsPermissionArn = "arn:aws:iam::role/flow_log"#"role_ARN" #provide the Role ARN from IAM roles which is the permission to push the logs
                                             # to VPC flow to the Cloud watch logs
-            )
-
-    
+            )    
